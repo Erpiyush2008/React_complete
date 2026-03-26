@@ -1,14 +1,11 @@
 import React from 'react';
-import CurrentInfo from './CurrentInfo'; 
-import TodoList from './components/TodoList';
-// import UserList from './components/UserList';
-
+// import UseMemoExample from './hooks/UseMemoExample';
+import CallbackExample from './hooks/CallbackExample';
 function App() {
   return (
     <>
-      {/* <CurrentInfo /> */}
-      {/* <UserList /> */}
-      <TodoList />
+      {/* <UseMemoExample /> */}
+      <CallbackExample/>
     </>
   );
 }
